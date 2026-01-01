@@ -1,6 +1,6 @@
 <template>
-  <footer class="mx-auto max-w-screen-xl bg-gray-50 border-b-4 border-b-gray-100">
-    <div class="px-6 md:px-12 py-6 flex flex-col md:flex-row justify-between space-y-2 md:items-center md:space-y-0">
+  <footer class="bg-gray-50 border-b-4 border-b-gray-100">
+    <div class="max-w-screen-xl mx-auto px-6 md:px-12 py-6 flex flex-col md:flex-row justify-between space-y-2 md:items-center md:space-y-0">
       <div>
         <NuxtLink to="/" class="text-orange-400 text-lg font-bold font-mono underline">命令月报</NuxtLink>
         <p class="text-sm">Minecraft 技术性月刊</p>
