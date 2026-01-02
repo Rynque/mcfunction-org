@@ -6,6 +6,11 @@ export default defineNuxtConfig({
   content: {
     experimental: { sqliteConnector: 'native' },
   },
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false
+    }
+  },
   app: {
     head: {
       title: '命令月报',
